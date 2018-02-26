@@ -1,0 +1,1 @@
+This folder is intended to keep track of the projects versions and may be used as backup version if necessary.

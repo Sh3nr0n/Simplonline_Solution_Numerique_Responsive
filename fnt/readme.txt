@@ -1,0 +1,1 @@
+This folder is used to store the fonts of the project if necessary
