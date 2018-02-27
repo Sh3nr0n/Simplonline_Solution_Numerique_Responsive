@@ -40,7 +40,7 @@ $(document).ready(function () {
 
                 $("#temp").text(temp + "°");
                 $("#tempMax").text("Temp max : " + maxTemp + "°C");
-                $("#tempMin").text("Temp min : " + minTemp).append("°C");
+                $("#tempMin").text("Temp min : " + minTemp + "°C");
                 $("#pressure").text("Pression : " + press + " Pa");
                 $("#windSpeed").text("Vitesse du vent : " + wind + " km/h");
                 $("#humidity").text("Humididté : " + humid + "%");
