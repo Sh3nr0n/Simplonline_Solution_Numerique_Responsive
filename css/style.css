@@ -1,10 +1,17 @@
+/* reset margin du document */
+
+html{
+    background-color: #00796B;
+
+}
+
 .container{
     background-color: #00796B;
     color: white;
 }
 
 #temp{
-    font-size: 17vh;
+    font-size: 16vh;
 }
 
 #varMeteo div{
