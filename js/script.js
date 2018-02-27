@@ -46,14 +46,14 @@ function weatherVar(cityName){
             console.log("latitude :",lat);
             console.log("longitude :",lon);
 
-            $("#temp").append(temp).append(" °");
-            $("#tempMax").append("Temp max : ").append(maxTemp).append(" °C");
-            $("#tempMin").append("Temp min : ").append(minTemp).append(" °C");
-            $("#pressure").append("Pression : ").append(press).append(" Pa");
-            $("#windSpeed").append("Vitesse du vent : ").append(wind).append(" km/h");
-            $("#humidity").append("Humididté : ").append(humid).append(" %");
-            $("#longitude").append("Longitude : ").append(lon).append(" °, ");
-            $("#latitude").append("latitude : ").append(lat).append(" °");
+            $("#temp").text(temp).append(" °");
+            $("#tempMax").text("Temp max : ").append(maxTemp).append(" °C");
+            $("#tempMin").text("Temp min : ").append(minTemp).append(" °C");
+            $("#pressure").text("Pression : ").append(press).append(" Pa");
+            $("#windSpeed").text("Vitesse du vent : ").append(wind).append(" km/h");
+            $("#humidity").text("Humididté : ").append(humid).append(" %");
+            $("#longitude").text("Longitude : ").append(lon).append(" °, ");
+            $("#latitude").text("latitude : ").append(lat).append(" °");
 
         }
     });
