@@ -17,6 +17,8 @@
 
     <div class="container">
 
+        <!-- Select a city and validate search -->
+
         <div class="row">
             <div class="input-field col s6 offset-s3">
                 <input id="cityName" type="text" class="validate" value="Pamiers">
@@ -30,6 +32,8 @@
             </div>
         </div>
 
+        <!-- Display error message if input field is empty -->
+
         <div class="row">
             <div class="flow-text center-align">
                 <p id="errorMsg"></p>
@@ -41,6 +45,8 @@
                 <span id="dateJour" class="flow-text "></span>
             </div>
         </div>
+
+        <!-- Display today's temperature and various weather variables -->
 
         <div class="row">
             <div id="temp" class="col s11 m4 offset-m2 offset-l2 flow-text center-align">
@@ -59,6 +65,8 @@
                 <span id="latitude" class="flow-text"></span>
             </div>
         </div>
+
+        <!-- Display map with actual city location -->
 
         <div class="row">
             <div id="weatherMap" class="video-container z-depth-5">
