@@ -22,7 +22,7 @@ $(document).ready(function () {
         var long = "";
 
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&units=metric&APPID=6aaaa1781b8c3529a2b54e3ca4c046db",
+            url: "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&units=metric&APPID=6aaaa1781b8c3529a2b54e3ca4c046db",
             type: "GET",
             datatype: "jsonp",
             success: function (data) {
